@@ -1,5 +1,7 @@
-# This explores the basics of Python that I am learning right now.#
-#############################################################
+# This explores the basics of Python that I am learning right now. #
+# @author Omar Barazanji                                           #
+# @version 2018                                                    #
+####################################################################
 
 # This is how you declare and print primative data types
 mystring = "Omar"
