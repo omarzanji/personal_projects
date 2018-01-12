@@ -1,4 +1,4 @@
-# This is the basics of Python that I am learning right now.#
+# This explores the basics of Python that I am learning right now.#
 #############################################################
 
 # This is how you declare and print primative data types
