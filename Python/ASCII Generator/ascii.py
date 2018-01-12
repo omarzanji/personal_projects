@@ -1,6 +1,7 @@
 # This program converts an image into ASCII art!      #
 # To run in cmd, "python ascii.py path_to_file"       #
-# @author Definetly not me!                           #
+# @author Omar Barazanji                              #
+# @author Praveen Kumar                               #
 # @version 2018                                       #
 #######################################################
 from PIL import Image
