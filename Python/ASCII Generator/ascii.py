@@ -2,7 +2,7 @@
 #                                                                  #
 # To run: "python ascii.py path_to_file"                           #
 #                                                                  #
-# Also, you need to install the pillow PIL(Python Imaging Library) #
+# Also, you need to install the Python Imaging Library (PIL)       #
 # by using command: "pip install Pillow"                           #
 #                                                                  #
 # @author Omar Barazanji                                           #
