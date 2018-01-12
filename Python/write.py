@@ -1,5 +1,5 @@
 # This file will demonstrate writing to a new file through user input.	  #
-# @name Omar Barazanji							  #
+# @author Omar Barazanji							  #
 # @version 2018								  #
 ###########################################################################
 import os
