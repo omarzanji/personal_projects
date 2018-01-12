@@ -1,9 +1,14 @@
-# This program converts an image into ASCII art!      #
-# To run in cmd, "python ascii.py path_to_file"       #
-# @author Omar Barazanji                              #
-# @author Praveen Kumar                               #
-# @version 2018                                       #
-#######################################################
+# This program converts an image into ASCII art!                   #
+#                                                                  #
+# To run: "python ascii.py path_to_file"                           #
+#                                                                  #
+# Also, you need to install the pillow PIL(Python Imaging Library) #
+# by using command: "pip install Pillow"                           #
+#                                                                  #
+# @author Omar Barazanji                                           #
+# @author Praveen Kumar                                            #
+# @version 2018                                                    #
+####################################################################
 from PIL import Image
 
 ASCII_CHARS = [ '#', '?', '%', '.', 'S', '+', '.', '*', ':', ',', '@']
