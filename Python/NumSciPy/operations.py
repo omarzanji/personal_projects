@@ -35,11 +35,11 @@ while choice in ['Y', 'y']:
             columns = 1 + file_data.shape[0] # num of columns
             i = 0
             while (i < columns):
-                current_coulmn = file_data[:, i]
-                print('Column %d: ' % (i) + str(current_coulmn))
+                current_column = file_data[:, i]
+                print('Column %d: ' % (i) + str(current_column))
                 i += 1
             choice_column = input('Select a column to Average: ')
-            print(sum(file_data[:, choice_column])/len(current_coulmn))
+            print(sum(file_data[:, choice_column])/len(current_column))
 
     # Add method
     if op_choice in ['2', 'Add', '2 - Add']:
@@ -60,8 +60,8 @@ while choice in ['Y', 'y']:
             columns = 1 + file_data.shape[0] # num of columns
             i = 0
             while (i < columns):
-                current_coulmn = file_data[:, i]
-                print('Column %d: ' % (i) + str(current_coulmn))
+                current_column = file_data[:, i]
+                print('Column %d: ' % (i) + str(current_column))
                 i += 1
             choice_column = input('Select a column to add: ')
             print(sum(file_data[:, choice_column]))
@@ -85,8 +85,8 @@ while choice in ['Y', 'y']:
             columns = 1 + file_data.shape[0] # num of columns
             i = 0
             while (i < columns):
-                current_coulmn = file_data[:, i]
-                print('Column %d: ' % (i) + str(current_coulmn))
+                current_column = file_data[:, i]
+                print('Column %d: ' % (i) + str(current_column))
                 i += 1
             choice_column = input('Select a column to Multiply: ')
             print(np.prod(file_data[:, choice_column]))
