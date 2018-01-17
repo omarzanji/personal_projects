@@ -6,7 +6,7 @@
 # by using command: "pip install Pillow"                           #
 #                                                                  #
 # @author Omar Barazanji                                           #
-# @author Praveen Kumar                                            #
+# @author Praveen Kumar (for the idea and most of the code)        #
 # @version 2018                                                    #
 ####################################################################
 from PIL import Image
