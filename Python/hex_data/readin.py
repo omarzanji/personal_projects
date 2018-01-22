@@ -1,5 +1,5 @@
 '''
-This program will read in a csv file and grab hex data and store in numpy array as int.
+This program will read in a csv file and grab hex data and store in numpy array as int and plot.
 
 Notes: 128 bit data is represented as 32 chars. You can compress the 128 bit data
        to 32 bit by only storing the first 8 chars of the 32 chars. Although this
