@@ -95,10 +95,13 @@ def select_file():
     columnNum = find_column_num(filename)
     if columnNum > 0:
         actual_column = columnNum + 1
+        global L3
         L3 = tk.Label(interface, text='Located 128bit data! Using column %d for plotting.' % actual_column)
         L3.grid(row=3)
     else:
         tkMessageBox.showinfo("Error", "Unable to locate 128bit data in %s" % str(filename))
+        if (L3):
+            L3.destroy()
 
 def ok_command():
     if file_selected > 0:
