@@ -83,7 +83,7 @@ print(phonebook)
 phonebook.pop("Jill")
 print(phonebook)
 
-# This is how you use the numpy library (downloaded from git)
+# This is how you use the numpy library (downloaded from pip)
 import numpy as np
 List_A = np.array([34.4, 77.7])
 List_B = np.array([234.4, 99.0])
