@@ -83,7 +83,6 @@ The code below will be a Tkinter interface for the tool.
 interface = tk.Tk()
 
 file_selected = -1
-
 def select_file():
     global filename
     filename = tkFileDialog.askopenfilename(initialdir="/", title="Select file",
