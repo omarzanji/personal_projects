@@ -78,5 +78,7 @@ interface.grid_rowconfigure(1, minsize=20)
 # Adds an empty row at 4
 interface.grid_rowconfigure(4, minsize=15)
 
+interface.title("CSV to HDF5")
+
 # Starts the GUI
 interface.mainloop()
