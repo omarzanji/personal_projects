@@ -2,3 +2,5 @@
 To use: you must have h5py, numpy, and Tkinter installed
 
 Enjoy!
+
+Features to add: Creating Groups and Subgroups
