@@ -1,4 +1,4 @@
-# This program will scrape the fuck out of RS database.
+# This program will scrape RS database.
 #
 # Author: Omar Barazanji
 # Python Version: 3.6
