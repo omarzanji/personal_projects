@@ -65,7 +65,8 @@ def item_prices_to_array(item_url):
 
 if __name__ == '__main__':
 
-    name = input(str("Type item name here: "))
+    name_input = input(str("Type item name here: "))
+    name = name_input[0].capitalize() + name_input[1:]
     number = grab_item_id(name)
 
     item_page = 'http://services.runescape.com/m=itemdb_oldschool/%s/viewitem?obj=%s' % (name, number)
@@ -80,8 +81,8 @@ if __name__ == '__main__':
     for x in item_prices:
         x_axis.append(x[0])
 
-print(x_axis)
-print(y_axis)
-
 plt.plot(y_axis)
+plt.ylabel('GP')
+plt.xlabel('Date')
+plt.title('%s Prices Across 6 Months - Present' % (name))
 plt.show()
