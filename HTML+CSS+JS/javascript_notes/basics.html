@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript</title>
+  </head>
+  <body>
+    <script>
+
+      function sayHello() {
+        document.write("Hello..." + "<br>");
+      }
+
+      sayHello();
+
+      document.write("Hello, World!" + "<br>");
+      var my_var = false;
+      var more_var = 0.5;
+
+      // strings are objects with member functions...
+      // see below...
+      var words = "hello ";
+      var more_words = "BRO!";
+      var sentence = words + more_words;
+
+      // takes a string, but document.write() converts to string for simplicity.
+      document.write(sentence + "<br>");
+
+      var num = 5;
+      var other_num = 10;
+
+      var length_sentence = sentence.length;
+      var result = sentence.substring(5,length_sentence);
+
+      document.write(result + "<br>");
+
+      // arrays
+      var a = new Array(5);
+      Array[0] = "cat";
+      Array[2] = true;
+      Array[3] = 7.5;
+      // can take any data type!!
+
+      // this also works...
+      var a = [1, "hiiiiii", 8];
+
+
+    </script>
+  </body>
+</html>

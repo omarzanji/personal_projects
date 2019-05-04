@@ -18,12 +18,12 @@ def avg(array):
     average = sum / len(array)
     return average
 
-quiz_scores = [75.0,83.0]
+quiz_scores = [75.0,83.0,93.75,112.5]
 quiz_avg = avg(quiz_scores)
 print('Quiz average: %s' % quiz_avg)
 
-test2_predicted = input('Test 2: ')
-final_predicted = input('Final exam: ')
+test2_predicted = float(input('Test 2: '))
+final_predicted = float(input('Final exam: '))
 
 grade = (100.0)*participation \
     + (100.0)*practice_probs \
