@@ -14,20 +14,20 @@ rc = 43000
 rl = 43000
 rb = 75000
 ri = 1000
-ro = 618674.7
 
-out = ( 1.0 / ( (1/ro) + (1/rc) + (1/rl) ) )
+
+out = ( 1.0 / ( (1/rc) + (1/rl) ) )
 inp = ( (1.0 /( (1/rb) + (1/rpi) )) / ((1 /( (1/rb) + (1/rpi) )) + ri ) )
 
 Av = -gm*out*inp
-print("Gain: %d" % Av)
+print("Gain: %f" % Av)
 print("Gain (dB): %d" % (20*np.log10(np.abs(Av))))
 
 Rin = (1.0 /( (1/rb) + (1/rpi) ))
 print("Rin: %d" % Rin)
 
-Rout = ( 1.0 / ( (1/ro) + (1/rc) ) )
-print("Rout: %d" % Rout)
+# Rout = ( 1.0 / ( (1/ro) + (1/rc) ) )
+# print("Rout: %d" % Rout)
 
 vi_max_small_signal = (5e-3) / (inp)
 print("Vi,max avoid small signal limit: %f" % vi_max_small_signal)
