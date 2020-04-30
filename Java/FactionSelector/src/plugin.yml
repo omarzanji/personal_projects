@@ -1,0 +1,7 @@
+main: me.solofaze.FactionSelector.Main
+name: FactionSelector
+version: 1.0
+author: solofaze
+
+commands:
+  faction_selector:

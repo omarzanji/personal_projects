@@ -1,0 +1,8 @@
+Setup Notes: (install node.js and agree to install additional package)
+1) npm install -g expo-cli
+2) start project "expo init ProjectName"
+    -> if error, open powershell as admin and run "Set-ExecutionPolicy RemoteSigned"
+       and select "Y" to continue.
+3) navigate into project directory
+4) To run: *npm run android" (or ios)
+5) 
