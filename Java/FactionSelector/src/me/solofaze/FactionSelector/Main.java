@@ -83,7 +83,7 @@ public class Main extends JavaPlugin implements Listener {
 		
 		lore_balance.add(""); // adds space under title !
 		lore_balance.add(ChatColor.GREEN + "" + ChatColor.ITALIC + "select this item to join " + ChatColor.BOLD + "Balance");  // Balance
-		meta_balance.setLore(lore_balance)
+		//meta_balance.setLore(lore_balance;
 	//	meta_balance.;
 		
 		lore_turmoil.add(""); // adds space under title !
