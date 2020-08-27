@@ -1,0 +1,17 @@
+Setup Notes: (install node.js and agree to install additional package)
+Win10(x64) 2020
+-
+Expo (cloud)
+1) npm install -g expo-cli
+2) start project "expo init ProjectName"
+    -> if error, open powershell as admin and run "Set-ExecutionPolicy RemoteSigned"
+       and select "Y" to continue.
+3) navigate into project directory
+4) To run: *npm run android" (or ios)
+-
+React Native (local)
+1) "npm install -g react-native-cli"
+2) "react-native init ProjectName"
+3) "react-native run android" or ios
+4) install yarn
+5) 

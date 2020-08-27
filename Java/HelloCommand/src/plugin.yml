@@ -1,0 +1,8 @@
+main: me.solofaze.HelloCommand.Main
+name: HelloCommand
+version: 1.0
+author: OmarBarazanji
+
+commands:
+  Hello:
+  

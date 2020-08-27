@@ -1,0 +1,8 @@
+main: me.solofaze.LaunchCommand.Main
+name: LaunchCommand
+version: 1.0
+author: solofaze
+
+commands:
+  Launch: 
+    aliases: lch
