@@ -5,7 +5,7 @@
 # source: https://kivy.org/doc/stable/tutorials/pong.html
 
 from kivy.app import App
-from Kivy.uix.widget import Widget
+from kivy.uix.widget import Widget
 
 class PongGame(Widget):
     pass
