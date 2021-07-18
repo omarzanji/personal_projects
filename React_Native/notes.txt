@@ -1,0 +1,16 @@
+To start new app:
+    -> react-native init "project-name"
+
+Javascript Notes:
+    -> <View>Text Stuff Here</View> is JSX - a syntax for embedding
+        XML within Javascript.
+    -> import, from, class and extends all come from a new version
+        of Javascript called ES6 or "Javascript 6".
+
+Components:
+    -> Components are how JSX is rendered in React Native. "Almost
+        everything built in React is a Component."
+
+Props:
+    -> Components can be customized with parameters called props.
+    -> 
